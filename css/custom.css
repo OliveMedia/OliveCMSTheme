@@ -1,0 +1,36 @@
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+*******************************/
+/* MODAL FADE LEFT RIGHT BOTTOM */
+.modal.right .modal-dialog {
+    position:absolute;
+    top:0;
+    right:0px;
+    margin:0;
+}
+
+.modal.left .modal-dialog {
+    position:absolute;
+    top:0;
+    left:0px;
+    margin:0;
+}
+
+.modal.left .modal-dialog.modal-sm {
+    min-width:300px;
+}
+
+.modal.right .modal-dialog.modal-md {
+    min-width:600px;
+}
+
+.modal.right .modal-dialog.modal-lg {
+    min-width:800px;
+}
+
+.modal.left .modal-content, .modal.right .modal-content {
+    min-height:100vh;
+    border:0;
+    border-radius: 0;
+}
