@@ -34,3 +34,27 @@
     border:0;
     border-radius: 0;
 }
+
+
+/* Search  */
+
+input.search {
+    background-color: #fff0;
+    border: 1px solid #ced4da00;
+    margin-right:30px;
+    margin-left: 30%;
+    font-size: 0.85em;
+    font-weight: 300;
+}
+
+@media (max-width: 575.98px) { 
+    input.search {
+        margin-left: 30px;
+    }
+ }
+
+
+input.search::placeholder {
+    font-size: 1em;
+    font-weight: 300;
+}
